@@ -1,4 +1,4 @@
-with open("desktopclean.py") as dsk, open("organization.py") as org:
+with open("scripts/desktopclean.py") as dsk, open("scripts/organization.py") as org:
     print("Cleaning the Desktop");
     print("");
     exec(dsk.read());
