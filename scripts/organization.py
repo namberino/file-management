@@ -23,6 +23,7 @@ if len(os.listdir(downloads)) > 2:
             print("Moving document %s" % basename);
             shutil.move(file, docs);
         elif extension[1] == '.mobi' or extension[1] == '.epub':
+            print("Moving ebook %s" % basename);
             shutil.move(file, books);
         else:
             continue;
